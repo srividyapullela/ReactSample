@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "es5",
+    "target": "node",
+    "allowJs": true
+  },
+  "exclude": [
+        "node_modules",
+        "app"
+    ]
+}

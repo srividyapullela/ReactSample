@@ -1,0 +1,18 @@
+#API
+   - npm run local for local environment
+   - npm run dev for dev environment
+   - npm run stg for stage environment
+   - npm run prod for prod environment
+
+This will create the server.bundle.js in the root/dist folder.
+
+##Angular code
+
+    - cd to root/app folder
+    - npm run build:prod for all the environments
+
+This will create the dist folder under root/app
+
+## to create a zip folder
+ 
+ npm run build at the root folder to invoke gulp task which creates dist.zip in the root/bundle folder.
